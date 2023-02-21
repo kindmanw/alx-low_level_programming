@@ -1,5 +1,8 @@
 #include "main.h"
-
+/**
+ * main - print alphabets
+ * return : always return zero
+ */
 void print_alphabet_x10(void);
 {
 	int i;
@@ -9,6 +12,6 @@ void print_alphabet_x10(void);
 	{
 		for (j = 'a'; j <= 'z'; j++)
 		_putchar(j);
-			_putchar('\n');
+		_putchar('\n');
 	}
-}	
+}
