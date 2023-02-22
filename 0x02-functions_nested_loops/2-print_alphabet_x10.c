@@ -1,17 +1,18 @@
-#include "main.h"
-/**
- * main - print alphabets
- * return : always return zero
- */
-void print_alphabet_x10(void);
-{
-	int i;
-	char j;
+#include"main.h"
 
-	for (i = 1; i <= 10 i++)
+/**
+ * print_alphabet_x10 - function that will print the alphabet 10 times
+ *
+*/
+
+void print_alphabet_x10(void)
+{
+	int line, ch;
+
+	for (line = 0; line <= 9; ++line)
 	{
-		for (j = 'a'; j <= 'z'; j++)
-		_putchar(j);
+		for (ch = 'a'; ch <= 'z'; ++ch)
+			_putchar(ch);
 		_putchar('\n');
 	}
 }
